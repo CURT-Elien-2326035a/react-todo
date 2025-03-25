@@ -513,7 +513,7 @@ const filteredTodos = todos.filter(todo => {
     <button type="submit">Ajouter</button>
     </form>
     
-    /* Filter Controls */
+    
       <div className="filter-controls">
       <h2>Filtres</h2>
       
