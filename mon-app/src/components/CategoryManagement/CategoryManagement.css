@@ -1,0 +1,134 @@
+.category-management {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.category-management h3 {
+  margin-top: 0;
+  color: #343a40;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.category-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group input[type="color"] {
+  height: 36px;
+  padding: 2px;
+}
+
+.category-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.categories-list {
+  margin-top: 20px;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 4px;
+  border-left: 4px solid #6c757d;
+}
+
+.category-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.category-title {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.category-description {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.category-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.category-color-preview {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.empty-categories {
+  color: #6c757d;
+  font-style: italic;
+  margin-top: 15px;
+}
